@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>
+         HTML FORM
+</title>
+<style>
+form{
+  border: 1px solid #ccc;
+  padding:10px;
+  background-color: #f2f2f2;
+}
+input, select{
+  width:100%;
+  box-sizing:border-box;
+  display:inline-block;
+  border:1px solid #ccc;
+  margin:4px 0;
+  padding:1px 1px;
+}
+input[type=submit], input[type=reset]{
+  margin:20px 0 0 0;
+  background-color: #4caf50;
+}
+
+</style>
+</head>
+<body>
+  <form>
+    <lable for "fname">First Name</lable>
+    <input type ="text" id = "fname" name ="" value=""placeholder ="Firstname">
+    <lable for "lname">Last Name</lable>
+    <input type ="text" id = "lname" placeholder ="Last name" name="" value="">
+    <lable for "num">contact No.</lable>
+    <input type ="text" id = "num" name="" value="" placeholder="contact no.">
+    <lable for="mail"> Email</lable>
+     <input type="text" id="mail" placeholder="Email" name="" value="">
+     <lable for="gend"></lable>
+     <select class="" name="Gender">
+        <option value="male">Select</option>
+       <option value="male">Male</option>
+       <option value="female">female</option>
+       <option value="female">other</option>
+    </select>
+    <input type ="submit" name="" value="Submit">
+    <input type ="reset" name="" value="Reset">
+  </form>
+</body>
+</html>

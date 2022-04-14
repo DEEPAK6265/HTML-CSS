@@ -1,0 +1,41 @@
+Html - Hyper text markup language. using html we develop web pages html is not a programming language.
+ There are many attributes and something 143 tags.
+
+
+CSS -Css is language we use to style an html document. css describe how html element should be dispayed
+    css stands for cascading style sheet
+css saves a lot of work and time. 
+pages load faster.
+css is considerd as clean coading technique which means search engines wont have to struggle to read
+
+CSS types:
+
+Inline : By using the style attributes inside html element.
+Internal: By using a style element in the head section .
+External: By linking css file to html.
+
+Selectors: css selectors are used to point or find or select the html element you want to style.
+Element -h3{color red}
+id -#
+universal -*
+grouping -h1,h2,h3
+class selector -h2.big{color }
+
+CSS color styling 1.color name 2. Hsl value 3. Rgb value 4. Hex value 5. Rgba value 6. Hsla value
+
+Background  clip -padding box, content box, border box.
+Border style property: Solid, Dashed, Dotted, Double, Groove ,Ridge ,INset, Outlet.
+
+Margin:- The css margin properties are used to create space around elements outside of any defined border.
+Padding:- The css padding properties are used to create space around elements, inside of any defined border.
+
+out line:- An outline is a line that is drawn arround element outside the borders to make the element stand out.
+            outline width, outline style, outline color, outlin offset, outline shorthnd.
+
+Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites.
+
+Git is software for tracking changes in any set of files, usually used for coordinating work among programmers
+ collaboratively developing source code during software development.
+
+css syntax --p{color: Red}
+   selector  property  value
